@@ -12,6 +12,32 @@
             align-items: flex-start
         &_descr
             width: 300px
+    .mobile
+        &_item
+            width: 290px
+            &_subtitle
+                font-size: 22px
+    .choice
+        padding: 55px 0
+        min-height: 840px
+    .require
+        br
+            display: none
+    .footer
+        &_wrapper > div
+            width: 50%
+            &:nth-child(1)
+                width: 25%  
+            &:nth-child(3)
+                width: 25%
+                display: flex
+                justify-content: flex-end
+        &_mobile
+            display: flex
+            a
+                margin: 0 3px
+                img
+                    width: 100%        
 
 @media (max-width: 991px)
     .menu
@@ -42,4 +68,25 @@
             align-items: center
         &_descr
             margin-top: 20px
+            width: 300px
+    .choice
+        min-height: 800px
+        &_img
+            width: 100%
+    .world
+        min-height: 650px
+    .footer
+        &_wrapper
+            flex-wrap: wrap
+        &_wrapper > div
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 20px
+            &_nth-child(1)
+                width: 100%
+            &_nth-child(3)
+                width: 100%
+                justify-content: center
+    
 
